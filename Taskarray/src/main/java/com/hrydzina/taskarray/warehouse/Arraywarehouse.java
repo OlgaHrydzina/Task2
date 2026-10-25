@@ -18,9 +18,11 @@ public class ArrayWarehouse {
     return instance;
   }
   public void put(String id, ArrayParameters parameters) {
+
     storage.put(id, parameters);
   }
   public Optional<ArrayParameters> get(String id) {
+
     return Optional.ofNullable(storage.get(id));
   }
   public void remove(String id) {
