@@ -28,6 +28,6 @@ public class ArrayObserverImpl implements ArrayObserver {
 
     ArrayParameters parameters = new ArrayParameters(sum, average, min, max);
 
-    Warehouse.getInstance().put(array.getId(), parameters);
+    ArrayWarehouse.getInstance().put(array.getId(), parameters);
   }
 }
