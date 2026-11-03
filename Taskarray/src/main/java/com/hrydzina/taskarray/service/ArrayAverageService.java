@@ -1,8 +1,6 @@
 package com.hrydzina.taskarray.service;
 
 import com.hrydzina.taskarray.entity.NumberArray;
-import com.hrydzina.taskarray.service.ArrayAverageServiceInterface;
-import com.hrydzina.taskarray.service.ArraySumServiceInterface;
 
 import java.util.OptionalDouble;
 import java.util.OptionalLong;

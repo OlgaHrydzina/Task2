@@ -1,7 +1,6 @@
 package com.hrydzina.taskarray.service;
 
 import com.hrydzina.taskarray.entity.NumberArray;
-import com.hrydzina.taskarray.service.ArraySortServiceInterface;
 
 public class ArraySortService
         implements ArraySortServiceInterface {
