@@ -6,7 +6,7 @@ import com.hrydzina.task2.entity.TextComponent;
 
 public class TextParser extends AbstractParser {
 
-  private static final String PARAGRAPH_DELIMITER = "\\R+";
+  private static final String PARAGRAPH_DELIMITER = "(?:\\R[\\t ]*){2,}";
 
   @Override
   public void parse(String text, TextComponent component) {

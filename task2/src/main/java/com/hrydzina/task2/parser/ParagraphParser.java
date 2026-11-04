@@ -15,8 +15,7 @@ public class ParagraphParser extends AbstractParser {
 
     for (String sentence : sentences) {
 
-      TextComponent sentenceComponent =
-              new CompositeText(ComponentType.SENTENCE);
+      TextComponent sentenceComponent = new CompositeText(ComponentType.SENTENCE);
 
       component.add(sentenceComponent);
 

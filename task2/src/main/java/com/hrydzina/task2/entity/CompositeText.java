@@ -3,9 +3,6 @@ package com.hrydzina.task2.entity;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class CompositeText implements TextComponent {
 
   private final ComponentType type;
